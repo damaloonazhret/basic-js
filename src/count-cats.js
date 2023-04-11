@@ -23,12 +23,12 @@ function countCats(arr) {
   let count = 0;
   for (let i = 0; i < arr.length; i++) {
     arr[i].forEach(el => {
-      if(typeof(el) === 'string'){
-        count++;
+      if(el === '^^'){
+        count++
       }
     });
   }
-  return count;
+  return count
 
 }
 
