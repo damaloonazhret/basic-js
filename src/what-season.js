@@ -23,25 +23,25 @@ const [
   new Date(1994, 8, 26, 3, 0, 11, 500),
 ];
 function getSeason(date) {
-
-  console.log(date.getMonth())
-  const error = Date.parse(date);
-  if (isNaN(error)){
-    return "error"
-  }
-  const month = date.getMonth()
-  if (month < 2 || month === 11){
-    return 'winter'
-  }
-  if (month < 5){
-    return 'spring'
-  }
-  if (month < 8){
-    return 'summer'
-  }
-  if (month < 11){
-    return 'autumn'
-  }
+  throw new NotImplementedError('Not implemented');
+  // console.log(date.getMonth())
+  // const error = Date.parse(date);
+  // if (isNaN(error)){
+  //   return "error"
+  // }
+  // const month = date.getMonth()
+  // if (month < 2 || month === 11){
+  //   return 'winter'
+  // }
+  // if (month < 5){
+  //   return 'spring'
+  // }
+  // if (month < 8){
+  //   return 'summer'
+  // }
+  // if (month < 11){
+  //   return 'autumn'
+  // }
 }
 
 module.exports = {
