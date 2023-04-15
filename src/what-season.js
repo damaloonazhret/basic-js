@@ -25,7 +25,17 @@ const [
 function getSeason(date) {
   throw new NotImplementedError('Not implemented');
   // console.log(date.getMonth())
+  // console.log(typeof date)
+  // if(typeof date === 'string' ||
+  //     typeof date === 'object' ||
+  //     typeof date === 'number' ||
+  //     typeof date === 'function'){
+  //   return 'Invalid date!'
+  // }
   // const error = Date.parse(date);
+  // if (date === undefined){
+  //   return 'Unable to determine the time of year!'
+  // }
   // if (isNaN(error)){
   //   return "error"
   // }
